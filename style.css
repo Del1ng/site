@@ -1,0 +1,177 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+header{
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main h3{
+    text-align: left;
+    margin-left: 290px;
+}
+main p{
+    text-align: left;
+    margin-left: 300px;
+    color: #555;
+}
+main a{
+    text-decoration: none;
+    color: #007bff;
+    transition: 0.4s;
+}
+main a:hover{
+    color: #0056b3;
+}
+.product-card {
+    width: 250px;
+    padding: 15px;
+    margin: 5px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-card .title {
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.product-card .price {
+    font-size: 18px;
+    color: #111;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.product-card a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+
+.product-card .out-of-stock {
+    color: red;
+    font-size: 14px;
+} 
+.product-card .in-stock {
+    color: rgb(20, 204, 51);
+    font-size: 14px;
+}     
+footer{
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    display: flex;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(136, 81, 81);
+    transition: 0.4s;
+}
+footer a:hover{
+    color: rgb(116, 69, 69);
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.login-conteiner{
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+}
+
+.login-conteiner h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+.input-group{
+    margin-bottom: 15px;
+    text-align: left;
+}
+.input-group label{
+    display: block;
+    font-weight: bold;
+    color: #555;
+}
+.input-group input{
+    padding:  8px;
+    border: 1px solid #a3a3a3;
+    border-radius: 8px;
+    font-size: 14px;
+    width: 95%;
+}
+.login-button {
+    background-color: rgb(49, 132, 226);
+    border:  none;
+    width: 95%;
+    font-size: 25px;
+    border-radius: 4px;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.login-button:hover{
+    background-color: #0157b4;
+}
+.forgot-password{
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}
+.forgot-password:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>auth</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <!--Что-то так хз--> 
+    <div class="login-conteiner">
+        <h2>Авторизация</h2>
+        <!--Форма Авторизации-->
+        <form method="post">
+            <div class="input-group">
+                <label for="email">Электроная почта</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Пароль</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button onclick="location.href='main.html'" class="login-button"> Войти</button>
+        </form>
+        <a href="forgot.html" class="forgot-password">Забыли пароль?</a>
+    </div>
+    </main>
+</body>
+</html>
