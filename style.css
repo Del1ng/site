@@ -12,14 +12,13 @@ header{
 
 }
 main{
-    display: flex;
-    align-items: center;
     justify-content: center;
+    display: flex;
 }
-
-main h3{
+main h4{
     text-align: left;
-    margin-left: 290px;
+    margin-left: 700px;
+    color: #555;
 }
 main p{
     text-align: left;
@@ -33,6 +32,48 @@ main a{
 }
 main a:hover{
     color: #0056b3;
+}
+.forgot-conteiner{
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(59, 54, 54);
+    text-align: center;
+    padding: 20px;
+}
+.forgot-conteiner h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+.forgot-group{
+    margin-bottom: 15px;
+    text-align: left;
+}
+.forgot-group input{
+    padding:  8px;
+    border: 1px solid #a3a3a3;
+    border-radius: 8px;
+    font-size: 19px;
+    width: 90%;
+}
+.forgot-group label{
+    display: block;
+    font-weight: bold;
+    color: #555;
+}
+.forgot-button{
+    background-color: rgb(71, 82, 94);
+    border:  none;
+    width: 50%;
+    border-radius: 4px;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.forgot-button:hover{
+    background-color: rgb(50, 57, 65);
 }
 .product-card {
     width: 250px;
@@ -132,6 +173,7 @@ nav ul li a:hover{
     
 }
 .login-conteiner{
+    justify-content: center;
     background-color: white;
     text-align: center;
     width: 300px;
@@ -231,4 +273,70 @@ nav ul li a:hover{
 .catalog-product-list{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.general-info{
+    display: grid;
+    grid-template-columns: 0.4fr 0.6fr;
+    width: 100%;
+}
+.general-info-img{
+    text-align: center;
+}
+.general-info-img img{
+    height: auto;
+    width: 90%;
+
+}
+.general-info-bar{
+    padding: 1%;
+    background-color: rgb(236, 236, 234);
+}   
+.general-info-bar h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.general-info-bar p{
+    margin-top: 5%;
+}
+.general-info-bar h2{
+    margin-top: 15%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.general-info-bar p{
+    font-size: 20px;
+    text-align: left;
+}
+.label{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 2%;
+}
+.general-info-bar button{
+    background-color: rgb(49, 132, 226);
+    border:  none;
+    width: 15%;
+    height: 8%;
+    font-size: 15px;
+    border-radius: 4px;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.general-info-bar button:hover{
+    background-color: #0157b4;
+}
+.general-info-text{
+
+}
+.general-info-text h2{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 85%;
+    font-size: 15px;
+    text-align: left;
+}
+.stars{
+  color: gold;
+  font-size: 2em;
+  display: inline-block;
 }
