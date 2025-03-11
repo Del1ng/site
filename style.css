@@ -11,10 +11,7 @@ header{
     padding: 15px;
 
 }
-main{
-    justify-content: center;
-    display: flex;
-}
+
 main a:hover{
     color: #0056b3;
 }
@@ -65,7 +62,7 @@ main a:hover{
     grid-template-columns: repeat(5, 1fr);
 }
 .product-card {
-    
+    height: auto;
     width: auto;
     padding: 15px;
     margin: 5px;
@@ -101,7 +98,7 @@ main a:hover{
 }
 
 .product-card img {
-    height: auto;
+    height: 100%;
     width: 100%;
     border-radius: 10px;
 }
@@ -134,8 +131,6 @@ main a:hover{
     color: inherit;
     display: block;
 }
-
-
 .product-card .out-of-stock {
     color: red;
     font-size: 14px;
@@ -196,6 +191,10 @@ nav ul li a:hover{
     font-weight: bold;
     
 }
+.login{
+    display: flex;
+    justify-content: center;
+}
 .login-conteiner{
     justify-content: center;
     background-color: white;
@@ -251,11 +250,8 @@ nav ul li a:hover{
 .forgot-password:hover{
     text-decoration: underline;
 }
-.catalog{
-    margin: 0;
-}
-.catalog h1 {
-    text-align: left;
+.catalog h1{
+    text-align: center;
     color: #333;
 }
 .searchbar{
@@ -289,8 +285,8 @@ nav ul li a:hover{
 }   
 .catalog-filter{
     display: grid;
-    grid-template-rows: repeat(5, 1fr);
-    height: 20%;
+    grid-template-rows: repeat(5, 0.5fr);
+    height: auto;
     width: 100%;  
     background-color: azure;
     border-radius: 10px;
@@ -383,9 +379,6 @@ nav ul li a:hover{
 .general-info-bar button:hover{
     background-color: #0157b4;
 }
-.general-info-text{
-
-}
 .general-info-text h2{
     font-family: Arial, Helvetica, sans-serif;
     max-width: 85%;
@@ -396,4 +389,135 @@ nav ul li a:hover{
   color: gold;
   font-size: 2em;
   display: inline-block;
+}
+
+.basketh2{
+    display: flex;
+    justify-content: center;
+}
+.baskettext{
+    display: grid;
+    grid-template-columns: 0.7fr 0.3fr;
+    color: #333;
+}
+.baskettextbutton{
+    display: grid;
+    grid-template-rows: 0.4fr 0.6fr;
+    color: #333;
+}
+.baskettext button{
+    background-color: #5f90c5;
+    color: white;
+    border-radius: 5px;
+}
+.baskettextbutt{
+    margin-top: 5%;
+    height: 10%;
+    width: 30%;
+}
+.baskettext button:hover{
+    background-color: #3c5b7c;
+}
+.baskettextbutton button{
+    background-color: rgb(158, 26, 26);
+    color: white;
+    border-radius: 5px;
+    height: 30%;
+}
+.baskettextbutton button:hover{
+    background-color: rgb(102, 21, 21);
+}
+
+.basket-container{
+    display: grid;
+    grid-template-columns: 0.7fr 0.3fr;
+    margin: 20px;
+}
+.basket-items{
+    width: 90%;
+    height: 30%;
+    display: grid;
+    grid-template-columns: 0.3fr 0.7fr;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0.1);    
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+}
+.basket-items img{
+    border-radius: 10px;
+    height: 90%;
+    width: 90%;
+    padding: 10px;
+}
+.basket-item button{
+    background-color: #5f90c5;
+    color: white;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding: 5px;
+}
+.basket-items a{
+    padding: 10px;
+    margin-left:100%;
+    text-decoration: none;
+    color: red;
+}
+.product-cart{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr ;
+    height: 40%;
+    width: 100%;
+}
+.total{
+    background-color: rgb(152, 216, 163);
+    display: grid;
+    grid-template-columns: 1fr 0.05fr;
+    margin: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 50px;
+}
+.totalph{
+    display: flex;
+    align-items: center;
+}
+.totalp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.totaltotal{
+    display: grid;
+    grid-template-columns: 0.3fr 0.7fr;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+
+}
+.totaltotaltotal{
+    display: flex;
+    border-right: 1px solid rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background: #f0f0f0;
+    padding: 8px;
+    border-radius: 5px;
+}
+.form-group input {
+    padding: 8px;
+    background: white;
+    border-radius: 3px;
+    width: 100%;
+}
+.form-group textarea {
+    padding: 8px;
+    background: white;
+    border-radius: 3px;
+}
+.form-group span {
+    color: gray;
+    min-width: 1%;
 }
