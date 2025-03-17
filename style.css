@@ -517,7 +517,26 @@ nav ul li a:hover{
     background: white;
     border-radius: 3px;
 }
-.form-group span {
-    color: gray;
-    min-width: 1%;
+.input-plase{
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0.4fr;
+}
+.offh3{
+    display: flex;
+    justify-content: center;
+}
+.oplata{
+   max-width: 50%;
+   margin: 7px;
+}
+.confrim{
+    display: flex;
+    justify-content: end;
+}
+.button-confrim{
+    background-color: green;
+    padding: 1%;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(0, 0, 0.1);
 }
